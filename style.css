@@ -229,7 +229,7 @@ body{
     padding-left: 15px;
 }
 
-*/Bolinha igual do figma*/
+/*Bolinha igual do figma*/
 
 .lista li::before{
     content: "•";
@@ -238,7 +238,48 @@ body{
     color: #000;
 }
 
+.sobre{
+   background-color: #145A32;
+}
+
+.title_us{
+    text-align: center;
+}
+
+.text1{
+font-size: small;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.samall_cont{
+display: flex;
+}
+
+
+.img_pizza2{
+
+}
+
+.text2{
+    
+}
+
+.title_contato{
+    text-align: center;
+}
+
 .contato{
     background-color: #fff;
     color: #000;
+    font-size: 30px;
+     padding: 80px 20px;
+    
+
+    
 }
+
+
+
+
