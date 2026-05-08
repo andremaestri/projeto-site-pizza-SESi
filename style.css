@@ -238,48 +238,131 @@ body{
     color: #000;
 }
 
+/* SOBRE */
+
 .sobre{
-   background-color: #145A32;
+    background: #0f5b35;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 10px;
 }
 
-.title_us{
+.sobre h2{
     text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 25px;
 }
 
-.text1{
-font-size: small;
-text-align: center;
-justify-content: center;
-align-items: center;
+.texto-topo{
+    text-align: center;
+    font-size: 18px; /* <--- mudei de 20px para 18px*/
+    line-height: 1.6;
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
 }
 
-.samall_cont{
-display: flex;
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.imagem img{
+    width: 320px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+
+.texto-lateral{
+    max-width: 530px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.texto-lateral p{
+    margin-bottom: 14px;
+}
+
+/* Contato */
+
+.maps{
+    width: 50px;
 }
 
 
-.img_pizza2{
-
-}
-
-.text2{
+section{
     
 }
 
-.title_contato{
-    text-align: center;
+.fomulario{
+background-color: #f4f4f4;
+padding: 60px 80px;
+
 }
 
-.contato{
-    background-color: #fff;
+.contato h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 60px;
     color: #000;
-    font-size: 30px;
-     padding: 80px 20px;
-    
+     }
 
+    .contato-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    flex-wrap: wrap;
+}
+
+.mapa iframe {
+    width: 460px;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 430px;
+    border: none;
+    background: #d9d9d9;
+    border-radius: 15px;
+    padding: 18px 25px;
+    font-size: 20px;
+    outline: none;
+    font-family: 'Jacques Francois', serif;
+}
+
+.formulario textarea {
+    height: 180px;
+    resize: none;
+}
+
+.formulario button{
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 18px;
+    background-color: #d9d9d9;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: auto;
+    transition: 0,3s;
+    font-family: 'Jacques Francois', serif;
     
 }
 
-
-
-
+.formulario button hover{
+    transform: scale(1.05);
+}
